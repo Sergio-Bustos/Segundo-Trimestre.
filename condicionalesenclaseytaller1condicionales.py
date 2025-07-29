@@ -1,6 +1,5 @@
 # Ejercicios practicos de condicionales en clase
 
-print("---- Taller 1 de condicionales ----")
 
 print("----- Ejercicio 1 ----")
 
@@ -34,6 +33,8 @@ else:
 # Taller 1 de condicionales
 
 # Ejercicio 1: Verifica si un numero es positivo,negativo o cero
+
+print("---- Taller 1 de condicionales ----")
 
 print("---- Ejercicio 1 ----")
 
