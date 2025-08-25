@@ -70,45 +70,6 @@ while chance <= 3: # Mientras el chance sea menor a 3
 else: # Y si ya es mayor a 3,agoto sus tres intentos
     print("Has agotado tus tres intentos")
 
-# ------ Ejercicios en clase de practica aparte ------
-
-print("----- Ejercicios con While,condicionales y estucturas")
-
-print("---- Ejercicio 1 ----")
-
-# Pide a usuario numeros enteros y sumalos hasta que ingrese un 0. Luego muestra el total
-
-total_suma = 0 # Inicializar la variable de suma
 
 
-while True: # Mientras es verdadera
-     numerooo = int(input("Ingresa un numero entero: ")) # Ingresar un numero
-     if numerooo == 0: # Si es cero se rompe el bucle
-          break
-     else: # Y si no es cero empieza el total de la suma sumandole el numero
-          total_suma += numerooo # Y se va sumando
-          print("La suma total es",total_suma) # Y se imprime el total
-print("Bucle finalizado")
-
-# Crea un programa que pida una contraseña valida usando while hasta que escriba 'python123' correctamente 
-
-print("---- Ejercicio 2 ----")
-
-contraseña = ""
-while contraseña!= "python123":
-     contraseña = input("Ingresa una contraseña: ")
-print("Contraseña correcta,has ingresado")
-
-# Pide productos uno por uno y guardalos en una lista. Termina cuando el usuario escriba "fin". Luego muestra toda la lista
-
-print("---- Ejercicio 3 ----")
-
-productos = [] # Lista inicial
-
-while True: # Mientras es verdadera
-    pedidio=input("ingresa el producto: ") # Le pide un producto
-    if pedidio=="fin": # Si pone fin se rompe el bucle 
-        break
-    productos.append(pedidio) # Se rompe el bucle y le añade los productos que ingreso antes de que se rompiera el bucle
-print(f"en total pediste {productos}") # Imprime la lista
     
