@@ -237,7 +237,7 @@ if suma > 10: # Si la suma de los primeros dos numeros de la lista es mayor una 
     print(f"La suma de los dos primeros elementos de la lista ({lista1}) es considerada una suma alta")
 
 else: # Si la suma de los primeros dos numeros es igual o menor a 10 siendo una suma baja
-    print(f"La suma de los dos primeros elmentos de la lista ({lista1}) se consideran una suma baja")
+    print(f"La suma de los dos primeros elementos de la lista ({lista1}) se consideran una suma baja")
 
 
 # Ejercicio 14: Dada la lista ["Ana", "Luis", "Pedro", "Marta"], muestra el último nombre. Si ese nombre es “Marta”, muestra “Nombre correcto”, si no, “Nombre diferente”.
@@ -308,7 +308,7 @@ nu333 = int(input("Ingresa el numero 3: ")) # Ingresar un int
 tuplae = (nu111,nu222,nu333) # Tupla de numeros
 listafi = list(tuplae) # Pasar a lista la tupla
 
-if listafi[1] == 2: # Si el segundo elemento de la lista es 2 cmabiarlo a 10
+if listafi[1] == 2: # Si el segundo elemento de la lista es 2 cambiarlo a 10
     listafi[1] = 10
     print(f"La lista cambiada el numero 2 de la segunda posicion por 10 es: {listafi}")
 
@@ -366,7 +366,7 @@ dicc = {
 }
 
 if dicc["edadd"] >= 18: # Si la clave 'edad' es mayor o igual 18 siendo 'Adulto'
-    print(f"Eres un adulto {dicc["nombre"]}!")
+    print(f"Eres un adulto {dicc['nombre']}!")
 
 else: # Si la clave 'edad' no es mayor o igual a 18 siendo 'Menor de edad'
     print(f"Eres un menor de edad {dicc['nombre']}!") 
@@ -383,7 +383,7 @@ dii = {
 
 if dii["edad"] > 18: # Si la clave 'edad' es mayor a 18 cambiarla por 21:
     dii["edad"] = 21
-    print(f"El diccionario con la edad cambiada por tener 18 años es: {dii}")
+    print(f"El diccionario con la edad cambiada por ser mayor 18 años es: {dii}")
 
 else: # Si la clave 'edad' no es mayor a 18 no cambiarla y dejarla intacta
     print(f"El diccionario sin el valor cambiado e intacta es: {dii}")
@@ -429,6 +429,6 @@ did = {
 }
 
 if "pan" in did: # Si 'pan' esta en el diccionario mostrar el precio
-    print(f"El precio del pan es de: {did["pan"]}")
+    print(f"El precio del pan es de: {did['pan']}")
 else: # Si no esta en el diccionario mostrar 'Producto no disponible"
     print("Producto no disponible por que no contamos con el precio")
