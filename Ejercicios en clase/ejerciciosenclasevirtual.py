@@ -63,11 +63,6 @@ print("La suma total es:", sumatoria)
 
 
 
-
-
-
-
-
 # Solicitar dos números y mostrar cuál es mayor o si son iguales.
 
 
@@ -119,9 +114,9 @@ if total > 100000:
     descuento = total * 0.10  
 
 print("\n--- Detalle de la compra ---")
-print(f"{producto1}: ${precio1:.2f}")
-print(f"{producto2}: ${precio2:.2f}")
-print(f"{producto3}: ${precio3:.2f}")
+print(f"{producto1}: ${precio1}")
+print(f"{producto2}: ${precio2}")
+print(f"{producto3}: ${precio3}")
 
 
 print(f"\nTotal sin descuento: ${total}")
@@ -176,16 +171,19 @@ num1 = float(input("Ingrese el primer número: "))
 num2 = float(input("Ingrese el segundo número: "))
 num3 = float(input("Ingrese el tercer número: "))
 
-
-if num1 >= num2 and num1 >= num3:
-    mayor = num1
-elif num2 >= num1 and num2 >= num3:
-    mayor = num2
+if num1 == num2 == num3:
+    print("Son iguales todos")
 else:
-    mayor = num3
+    if num1 >= num2 and num1 >= num3:
+        mayor = num1
+    elif num2 >= num1 and num2 >= num3:
+        mayor = num2
+    else:  
+        mayor = num3
+
+    print(f"El número mayor es: {mayor}")
 
 
-print(f"El número mayor es: {mayor}")
 
 
 # Crear un diccionario con información de un estudiante (nombre, edad, programa). Mostrarlo.
